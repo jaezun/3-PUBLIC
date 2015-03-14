@@ -69,3 +69,14 @@ int				main(int ac, char **av)
 	}
 	return (0);
 }
+
+
+/*
+** Main if no terminal at hand
+*/
+
+// int		main(void)
+// {
+// 	dechiffrer("");
+// 	return (0);
+// }
