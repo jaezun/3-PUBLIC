@@ -1,3 +1,5 @@
+// Simple and functional online compiler: https://ideone.com/
+
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
