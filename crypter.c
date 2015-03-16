@@ -30,7 +30,7 @@ static void		dechiffrer(char *src_inverse)
 static void		chiffrer(char *src)
 {
 	char	src_inverse[1000];
-	char	*str_rand = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char	*str_rand = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$^&*()_+{}[]:;/?.<`=-";
 	int		i, j, k;
 
 	i = 0;
@@ -57,7 +57,7 @@ int				main(int ac, char **av)
 		if (!av[1])
 		{
 			printf("NULL\n");
-			return (-1);			
+			return (-1);
 		}
 		else
 		{
